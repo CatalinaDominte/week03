@@ -22,7 +22,7 @@ namespace Tema_28102019
         private static void Txt()
         {
             string[] lines = System.IO.File.ReadAllLines(@"F:\1CSharp\WriteLines.txt");
-            int[] numere = new int[lines.Length];
+           
             int sum = 0;
             foreach (var line in lines)
             {
